@@ -1,0 +1,168 @@
+body {
+    background-color: grey;
+    background-image: url(bg_led.gif);
+    overflow-x: hidden;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-top: 10px;
+    margin-top: 40px;
+    box-shadow: rgb(255, 255, 255) 0px 5px 10px;
+    
+}
+
+h1 {
+    font-family: Times, "Times New Roman", serif;
+    font-weight: normal;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+.pylon {
+    width: 30%;
+    height: 100%;
+    padding-left: 10px;
+    float: left;
+    overflow: hidden;
+    mix-blend-mode:difference;
+    
+}
+
+.intern-text {
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    letter-spacing: 5px;
+    text-align: left;
+    
+}
+.internal-post {
+    height: 250px;
+}
+
+.blank {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.banner {
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    z-index: 99; 
+
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    font-family: Times, "Times New Roman", serif;
+    letter-spacing: 15px;
+    font-size: 13px;
+    align-items: center;
+    display: grid;
+    position: absolute;
+    max-width: 100%;
+
+}
+
+/*
+--------------------------------
+    login section
+--------------------------------
+*/
+
+.access-container {
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 400px;
+    height: 500px;
+    z-index: 99;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(255, 255, 255) 0px 5px 10px;
+
+}
+.fields {
+    width: 200px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-top: 50px;
+    
+}
+
+/*
+#kafka-eyes {
+    width: 100%;
+    padding-top: 10%;
+    mix-blend-mode:color-burn;
+}
+*/
+
+#username {
+    margin-bottom: 10%;
+}
+
+input[type=text], input[type=password] {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+}
+
+.title-log {
+    font-family: Times, "Times New Roman", serif;
+    font-weight: normal;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+.title-reg {
+    font-family: Times, "Times New Roman", serif;
+    font-weight: normal;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+#bottom-text {
+    color: black;
+    width: 100%;
+  
+}
+
+#bottom-text-div {
+    display: inline-block;
+    box-sizing: border-box;
+    top: 200px;
+    position: relative;
+
+}

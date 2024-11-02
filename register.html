@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⌈ powerLine ⌋ - register</title>
+    <link rel="icon" href="bg_led.gif">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="access-container">
+        <!-- <img id="kafka-eyes" src="kafka-eyes.jpg" alt=""> -->
+        <p class="title-reg">register</p>
+        <form action="/register_page.php" method="POST">
+            <div class="fields">
+                <p style="color: black; text-align: center;">user ID:</p>
+                <input type="text" name="username" id="username" required maxlength="12">
+                <p style="color: black; text-align: center;">password:</p>
+                <input type="password" name="password" id="password" required maxlength="18">
+                <p style="color: black; text-align: center;">confirm psw:</p>
+                <input type="password" name="confirm-password" id="confirm-password" required maxlength="18">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
